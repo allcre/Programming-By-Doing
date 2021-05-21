@@ -14,6 +14,7 @@ public class SineWave
 
 /**
    A frame with a message panel
+	 yeah
   */
 class SineFrame extends JFrame
 {

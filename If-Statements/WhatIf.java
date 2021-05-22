@@ -3,7 +3,7 @@ public class WhatIf
 	public static void main( String[] args )
 	{
 		int people = 20;
-		int cats = 30;
+		int cats = 20;
 		int dogs = 15;
 
 		if ( people < cats )

@@ -11,7 +11,7 @@ public class ALetterToYourself {
     System.out.println("|                                               |");
     System.out.println("|                  Allison Cretel               |");
     System.out.println("|                  Sike You Thought Lane        |");
-    System.out.println("|                  Seattle, WT 12345            |");
+    System.out.println("|                  Seattle, WT 12346            |");
     System.out.println("|                                               |");
     System.out.println("+-----------------------------------------------+");
   }

@@ -70,6 +70,6 @@ public class LittleQuiz
     }
 
     System.out.println("\nOverall, you got " + score + " out of 3 correct.");
-    System.out.println("Thanks for playing!");
+    System.out.println("Thanks for playing!\n");
   }
 }

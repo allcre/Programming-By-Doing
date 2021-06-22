@@ -1,4 +1,5 @@
 // note: == does not work for comparing a variable and a string. Use .equals() instead.
+// also {} are not needed for one line if/else statements. They can be omitted. 
 
 import java.util.Scanner;
 

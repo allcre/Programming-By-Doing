@@ -18,6 +18,5 @@ public class CountingWhile
 			System.out.println( ((n + 1) * 10) + ". " + message );
 			n++;
 		}
-
 	}
 }

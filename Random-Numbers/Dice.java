@@ -13,6 +13,6 @@ public class Dice
     System.out.println("HERE COMES THE DICE!\n");
     System.out.println("Roll #1: " + r1);
     System.out.println("Roll #2: " + r2);
-    System.out.println("The toal is " + sum + "!");
+    System.out.println("The total is " + sum + "!");
   }
 }

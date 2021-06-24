@@ -19,32 +19,31 @@ public class Nim
     int amount = 0;
     int i;
 
-    System.out.print("\nA: ");
-    i = 0;
+    i = 5;
+    System.out.println();
 
-    while (i < aPile)
+    while (i > 0)
     {
-      System.out.print("*");
-      i++;
+      if (aPile - i < 0)
+        System.out.print("\t  ");
+      else if (aPile - i >= 0)
+        System.out.print("\t* ");
+
+      if (bPile - i < 0)
+        System.out.print("  ");
+      else if (bPile - i >= 0)
+        System.out.print("* ");
+
+      if (cPile - i < 0)
+        System.out.print("  ");
+      else if (cPile - i >= 0)
+        System.out.print("* ");
+
+      System.out.print("\n");
+      i--;
     }
 
-    System.out.print("\nB: ");
-    i = 0;
-
-    while (i < bPile)
-    {
-      System.out.print("*");
-      i++;
-    }
-
-    System.out.print("\nC: ");
-    i = 0;
-
-    while (i < cPile)
-    {
-      System.out.print("*");
-      i++;
-    }
+    System.out.print("\tA B C");
 
     while ((aPile + bPile + cPile) > 1)
     {
@@ -101,32 +100,31 @@ public class Nim
       else if (pile.equals("C"))
         cPile -= remove;
 
-      System.out.print("\nA: ");
-      i = 0;
+      i = 5;
+      System.out.println();
 
-      while (i < aPile)
+      while (i > 0)
       {
-        System.out.print("*");
-        i++;
+        if (aPile - i < 0)
+          System.out.print("\t  ");
+        else if (aPile - i >= 0)
+          System.out.print("\t* ");
+
+        if (bPile - i < 0)
+          System.out.print("  ");
+        else if (bPile - i >= 0)
+          System.out.print("* ");
+
+        if (cPile - i < 0)
+          System.out.print("  ");
+        else if (cPile - i >= 0)
+          System.out.print("* ");
+
+        System.out.print("\n");
+        i--;
       }
 
-      System.out.print("\nB: ");
-      i = 0;
-
-      while (i < bPile)
-      {
-        System.out.print("*");
-        i++;
-      }
-
-      System.out.print("\nC: ");
-      i = 0;
-
-      while (i < cPile)
-      {
-        System.out.print("*");
-        i++;
-      }
+      System.out.print("\tA B C");
     }
 
     if (turn == 1)

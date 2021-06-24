@@ -1,5 +1,5 @@
 # Programming-By-Doing
 
-Exercises from www.programmingbydoing.com 
+Exercises from Graham Mitchell's 'Programming By Doing' course.
 
-learning java :)
+All exercises can be found at: www.programmingbydoing.com

@@ -30,7 +30,6 @@ public class Nim
       System.out.println("You'll be playing against Bartholomew today.");
 
       int starter = 1 + r.nextInt(2);
-      int winning = 0;
 
       if (starter == 1)
       {

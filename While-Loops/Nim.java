@@ -1,5 +1,3 @@
-// adding a robot player
-
 import java.util.Scanner;
 import java.util.Random;
 
@@ -21,6 +19,7 @@ public class Nim
     int i;
 
     System.out.println("Hello! Welcome to Nim.");
+    System.out.println("The game works by removing at least 1 counter from any pile on your turn. The player who is forced to take the last counter loses.");
     System.out.print("Will there be 1 or 2 players today: ");
     int players = keyboard.nextInt();
 
@@ -100,7 +99,7 @@ public class Nim
 
           remove = 1 + r.nextInt(amount);
 
-          System.out.println("\n\nBartholomew removed " + remove + " counter(s) from the " + pile + " pile.");
+          System.out.println("\n\nBartholomew removed " + remove + " counter(s) from pile " + pile);
 
           if (pile.equalsIgnoreCase("A"))
             aPile -= remove;

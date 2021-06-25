@@ -1,3 +1,5 @@
+// adding a robot player 
+
 import java.util.Scanner;
 
 public class Nim
